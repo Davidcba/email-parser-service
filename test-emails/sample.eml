@@ -1,0 +1,24 @@
+From: test@example.com
+To: recipient@example.com
+Subject: Sample email with JSON attachment
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="boundary123"
+
+--boundary123
+Content-Type: text/plain; charset="UTF-8"
+
+Hi, this email contains a JSON file as an attachment.
+
+--boundary123
+Content-Type: application/json; name="data.json"
+Content-Disposition: attachment; filename="data.json"
+Content-Transfer-Encoding: 7bit
+
+{
+  "userId": 42,
+  "firstName": "Ada",
+  "lastName": "Lovelace"
+}
+
+--boundary123--
+

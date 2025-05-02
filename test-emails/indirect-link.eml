@@ -1,0 +1,10 @@
+From: test@example.com
+To: you@example.com
+Subject: Indirect JSON Test
+MIME-Version: 1.0
+Content-Type: text/plain; charset="UTF-8"
+
+Hello,
+
+Here is your JSON link:
+https://speckled-ethereal-gem.glitch.me/

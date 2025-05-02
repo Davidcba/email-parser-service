@@ -1,0 +1,11 @@
+From: test@example.com
+To: recipient@example.com
+Subject: Email with JSON link
+MIME-Version: 1.0
+Content-Type: text/plain; charset="UTF-8"
+
+Hi,
+
+Here is the data you requested:
+https://jsonplaceholder.typicode.com/users/1
+
